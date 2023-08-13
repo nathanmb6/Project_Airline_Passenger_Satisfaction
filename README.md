@@ -6,7 +6,7 @@ Proyek ini berfokus pada analisis tingkat kepuasan penumpang penerbangan dengan 
 
 Excel:
   1. Import file CSV untuk melihat nama-nama kolom dan jumhlah banyaknya data
-  2. Mengambil 20.000 baris saja dari masing2 file CSV review1 & review2
+  2. Mengambil 20.000 baris saja dari masing2 file CSV Review1 & Review2
   3. Menyesuaikan tipe data & struktur kolom
 
 MySQL:
