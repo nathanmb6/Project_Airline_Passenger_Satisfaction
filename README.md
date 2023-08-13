@@ -4,8 +4,13 @@ Proyek ini berfokus pada analisis tingkat kepuasan penumpang penerbangan dengan 
 
 # Data Cleaning
 
+Excel:
+  1. Import file CSV untuk melihat nama-nama kolom dan jumhlah banyaknya data
+  2. Mengambil 20.000 baris saja dari masing2 file CSV review1 & review2
+  3. Menyesuaikan tipe data & struktur kolom
+
 MySQL:
-  1. Mengimpor file CSV ke dalam database, menciptakan dua tabel dengan nama review1 & review2.
+  1. Mengimpor file CSV ke dalam database, lalu membuat dua tabel dengan nama review1 & review2.
   2. Menyesuaikan tipe data dan struktur kolom sesuai kebutuhan.
   3. Melakukan validasi data secara menyeluruh untuk menghilangkan data yang kosong, duplikat, atau tidak akurat dalam kolom-kolom tertentu.
   4. Membuat kolom baru bernama Age_Category dengan mengartikan kolom Umur (Age), untuk meningkatkan pemahaman data.
