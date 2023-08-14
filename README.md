@@ -17,7 +17,7 @@ MySQL:
 
 Python:
   1. Membuat koneksi ke database MySQL.
-  2. Meninjau kembali data untuk memastikan tidak ada catatan yang hilang, duplikat, atau tidak akurat.
+  2. Meninjau kembali data untuk memastikan tidak ada yang hilang, duplikat, atau tidak akurat.
 
 # Data Exploration
 
@@ -28,7 +28,7 @@ MySQL:
   4. Menyelidiki variasi tingkat kepuasan antara pelanggan setia dan non-setia.
 
 Python:
-  1. Menyelidiki apakah tingkat keterlambatan penerbangan, berdasarkan kelas, mempengaruhi kepuasan pelanggan.
+  1. Membandingkan rating tentang Pelayanan Elektronic Maskapai antara kepuasan Loyal Customer & Disloyal Customer?.
   2. Mengidentifikasi layanan dengan dampak paling signifikan pada kepuasan pelanggan.
   3. Menjelajahi potensi hubungan antara kepuasan pelanggan dan kualitas produk-produk maskapai.
 
