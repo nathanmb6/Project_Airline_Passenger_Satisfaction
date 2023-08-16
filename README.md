@@ -12,7 +12,7 @@ Excel:
 MySQL:
   1. Mengimpor file CSV ke dalam database, lalu membuat dua tabel dengan nama review1 & review2.
   2. Menyesuaikan tipe data dan struktur kolom sesuai kebutuhan.
-  3. Melakukan validasi data secara menyeluruh untuk menghilangkan data yang kosong, duplikat, atau tidak akurat dalam kolom-kolom tertentu.
+  3. Melakukan data cleaning yang kosong, duplikat, atau tidak akurat dalam kolom-kolom tertentu.
   4. Membuat kolom baru bernama Age_Category dengan mengartikan kolom Umur (Age), untuk meningkatkan pemahaman data.
 
 Python:
@@ -22,8 +22,8 @@ Python:
 # Data Exploration
 
 MySQL:
-  1. Memeriksa apakah tingkat kepuasan pelanggan lebih tinggi di antara penumpang perempuan atau laki-laki.
-  2. Menjelajahi dampak jenis perjalanan (Perjalanan Pribadi atau Bisnis) terhadap tingkat kepuasan pelanggan.
+  1. Memeriksa tingkat kepuasan pelanggan antara penumpang wanita & pria.
+  2. Membandingkan tingkat kepuasan berdasarkan jenis perjalanan.
   3. Menganalisis perbedaan tingkat kepuasan di antara kelas penerbangan (Bisnis, Ekonomi, Ekonomi Plus).
   4. Menyelidiki variasi tingkat kepuasan antara pelanggan setia dan non-setia.
 
