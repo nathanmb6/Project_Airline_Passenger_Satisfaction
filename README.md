@@ -1,36 +1,38 @@
 # Project_Airline_Passenger_Satisfaction
-
-Proyek ini berfokus pada analisis tingkat kepuasan penumpang penerbangan dengan menggunakan dataset Tingkat Kepuasan Penumpang Penerbangan yang tersedia di https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction.
+This project focuses on analyzing the level of airline passenger satisfaction using the Airline Passenger Satisfaction dataset available at https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction.
 
 # Data Cleaning
-
 Excel:
-  1. Import file CSV untuk melihat nama-nama kolom dan jumhlah banyaknya data
-  2. Mengambil 20.000 baris saja dari masing2 file CSV Review1 & Review2
-  3. Menyesuaikan tipe data & struktur kolom
 
+1. Import CSV files to view column names and the amount of data.
+2. Extract only 20,000 rows from each CSV file Review1 & Review2.
+3. Adjust data types and column structures.
+   
 MySQL:
-  1. Mengimpor file CSV ke dalam database, lalu membuat dua tabel dengan nama review1 & review2.
-  2. Menyesuaikan tipe data dan struktur kolom sesuai kebutuhan.
-  3. Melakukan data cleaning yang kosong, duplikat, atau tidak akurat dalam kolom-kolom tertentu.
-  4. Membuat kolom baru bernama Age_Category dengan mengartikan kolom Umur (Age), untuk meningkatkan pemahaman data.
+
+1. Import CSV files into the database and create two tables named review1 & review2.
+2. Adjust data types and column structures as needed.
+3. Perform data cleaning for empty, duplicate, or inaccurate data in specific columns.
+4. Create a new column named Age_Category by interpreting the Age column to enhance data understanding.
 
 Python:
-  1. Membuat koneksi ke database MySQL.
-  2. Meninjau kembali data untuk memastikan tidak ada yang hilang, duplikat, atau tidak akurat.
+
+1. Establish a connection to the MySQL database.
+2. Review the data to ensure there are no missing, duplicate, or inaccurate entries.
 
 # Data Exploration
-
 MySQL:
-  1. Memeriksa tingkat kepuasan pelanggan antara penumpang wanita & pria.
-  2. Membandingkan tingkat kepuasan berdasarkan jenis perjalanan.
-  3. Menganalisis perbedaan tingkat kepuasan di antara kelas penerbangan (Bisnis, Ekonomi, Ekonomi Plus).
-  4. Menyelidiki variasi tingkat kepuasan antara pelanggan setia dan non-setia.
+
+1. Examine customer satisfaction levels between male and female passengers.
+2. Compare satisfaction levels based on the type of travel.
+3. Analyze differences in satisfaction levels among flight classes (Business, Economy, Economy Plus).
+4. Investigate variations in satisfaction levels between loyal and non-loyal customers.
 
 Python:
-  1. Membandingkan rating tentang Pelayanan Elektronic Maskapai antara kepuasan Loyal Customer & Disloyal Customer?.
-  2. Mengidentifikasi layanan dengan dampak paling signifikan pada kepuasan pelanggan.
-  3. Menjelajahi potensi hubungan antara kepuasan pelanggan dan kualitas produk-produk maskapai.
+
+1. Compare ratings on Electronic Service of the airline between Loyal Customer and Disloyal Customer.
+2. Identify services with the most significant impact on customer satisfaction.
+3. Explore potential relationships between customer satisfaction and the quality of airline products.
 
 # Data Visualization
-  Untuk visualisasi data, saya menggunakan Matplotlib dan Seaborn. Harap dicatat bahwa semua visualisasi dihasilkan menggunakan Python dan hanya hasil Data Exploration Python saja.
+For data visualization, I use Matplotlib and Seaborn. Please note that all visualizations are generated using Python and are based on the Python Data Exploration results only.
