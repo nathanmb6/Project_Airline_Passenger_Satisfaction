@@ -34,5 +34,18 @@ Python:
 2. Identify services with the most significant impact on customer satisfaction.
 3. Explore potential relationships between customer satisfaction and the quality of airline products.
 
+# Machine Learning Model
+Machine Learning Model Creation Description:
+
+1. Observing Data Distribution to identify outliers.
+2. Identifying highly correlated features.
+3. Encoding Categorical Data into Numerical format.
+4. Normalizing Data using MinMax scaling.
+5. Performing Feature Selection for the best features.
+6. Conducting Cross-Validation by cross-checking feature selection with significant data accuracy against the target.
+7. Training and Testing the model.
+8. Developing a Machine Learning Classification Model.
+9. Making Predictions using New Data to ensure Model Accuracy.
+
 # Data Visualization
 For data visualization, I use Matplotlib and Seaborn. Please note that all visualizations are generated using Python and are based on the Python Data Exploration results only.
